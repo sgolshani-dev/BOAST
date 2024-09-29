@@ -1,10 +1,11 @@
 function fmpoptbs = tbx_cfg_fmpoptbs
+% ======================================================================
 % MATLABBATCH Configuration file for toolbox 'tbx_cfg_FmpOptBS'
 %_______________________________________________________________________
 % Copyright (C) 2015-2018 Steffen Volz
 % Wellcome Trust Centre for Neuroimaging, London
 % and Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig 
-
+% ======================================================================
 % $Id: tbx_cfg_FmpOptBS.m 89 2015-12-16 11:03:00Z steffen $
 
 if ~isdeployed, addpath(fullfile(spm('Dir'),'toolbox','FmpOptBS')); end
