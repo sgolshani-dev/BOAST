@@ -14,8 +14,7 @@ function BS = CalculateBS_TB(fm_dX, fm_dY, fm_dZ, epi_param_opt, epi_param_fix, 
 % =========================================================================
 % Default variables
 % =========================================================================
-gam = 2*pi*42.58;             % gyromagnetic ratio in MHz/Tesla for protons
-Larmor = gam/2/pi;
+gam = 2*pi*42.58*10^6;             % gyromagnetic ratio in Hz/Tesla for protons
   
 % =========================================================================
 % Compensation Gradients
