@@ -16,7 +16,7 @@ function BS = CalculateBS_TB(FG, epi_param_opt, epi_param_fix, scanner_param)
 % =========================================================================
 % Unpack Input Variables
 % =========================================================================
-gam = 2*pi*42.58e6;                     % gyromagnetic ratio for protons in Hz/T
+gam = 42.58e6;                     % gyromagnetic ratio for protons in Hz/T
 
 default_epi_params = SetDefaultEPIParam;
 try fov = epi_param_fix.fov;     catch,   fov = default_epi_params.fov;         end
